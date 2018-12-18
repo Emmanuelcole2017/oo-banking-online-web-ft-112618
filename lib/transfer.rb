@@ -12,5 +12,5 @@ class Transfer
   def valid?(account)
     account.valid?
   end
-  
+
 end
