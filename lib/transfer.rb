@@ -19,7 +19,7 @@ class Transfer
 
   def execute_transaction
     @sender.balance -= @amount
-    puts @sender.balance
+    puts @amount
     @receiver.balance += @amount
     @status = "complete"
   end
