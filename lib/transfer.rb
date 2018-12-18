@@ -21,6 +21,6 @@ class Transfer
     @sender.balance -= @amount
     @receiver.depost(@amount)
   end
-  
+
 
 end
