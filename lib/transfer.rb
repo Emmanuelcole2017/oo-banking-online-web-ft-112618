@@ -7,5 +7,5 @@ class Transfer
     @account2 = bank2
     @amount = money
   end
-  
+
 end
